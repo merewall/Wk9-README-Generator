@@ -1,0 +1,23 @@
+{
+  "name": "Wk9-README-Generator",
+  "version": "1.0.0",
+  "description": "Creates a professional README.md file using inquirer npm package and command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merewall/Wk9-README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merewall/Wk9-README-Generator/issues"
+  },
+  "homepage": "https://github.com/merewall/Wk9-README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}

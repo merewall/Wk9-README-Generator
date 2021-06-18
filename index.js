@@ -46,7 +46,7 @@ const questions = [
     {
       type: 'input',
       name: 'usage',
-      message: 'Enter a brief description on how to use your project.',
+      message: 'Describe how to use your project.',
       validate: (usageInput) => {
         if (usageInput) {
             return true;
@@ -73,7 +73,7 @@ const questions = [
       type: 'input',
       name: 'tests',
       message: 'Please describe how to test your project.',
-      validate: (testInput) => {
+      validate: (testsInput) => {
         if (testsInput) {
             return true;
         } else {
@@ -104,7 +104,12 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+        console.log(answers);
+    });
+}
 
 // Function call to initialize app
 init();

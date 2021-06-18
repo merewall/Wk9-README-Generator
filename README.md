@@ -1,10 +1,10 @@
-# Readme generator
+# Professional README Generator
 
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## DESCRIPTION
 
-  generates a professional readme for a project
+  Generates a professional README.md file based on user inputs
 
   ## TABLE OF CONTENTS
 
@@ -18,11 +18,11 @@
 
   ## INSTALLATION
 
-  install inquirer 
+  Install through GitHub 
 
   ## USAGE
 
-  answer questions
+  Answer the questions
 
   ## LICENSE
 
@@ -30,11 +30,11 @@
 
   ## CONTRIBUTING
 
-  n/a
+  N/A
 
   ## TESTS
 
-  n/a
+  N/A
 
   ## QUESTIONS
 

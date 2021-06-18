@@ -76,7 +76,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `Licensed under the [${license}](${renderLicenseLink(license)})`
+    return `Licensed under the [${license}]`
   } else {
     return ''
   }
@@ -112,7 +112,7 @@ function generateMarkdown(data) {
 
   ## LICENSE
 
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.license)}(${renderLicenseLink(data.license)})
 
   ## CONTRIBUTING
 

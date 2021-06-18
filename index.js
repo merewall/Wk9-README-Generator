@@ -97,6 +97,32 @@ const questions = [
             }
         }
       },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your GitHub user name',
+        validate: (githubInput) => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log("You must enter your GitHub user name.");
+                return false;
+            }
+        }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your contact email address.',
+        validate: (emailInput) => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log("You must enter a contact email for your project.");
+                return false;
+            }
+        }
+      },
   ];
 
 // TODO: Create a function to write README file
@@ -112,6 +138,7 @@ function init() {
         .then((answers) => {
             const readmeContent = generateMarkdown(answers);
             writeToFile('README.md', readmeContent);
+            console.log(answers);
         });
 }
 

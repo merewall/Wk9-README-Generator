@@ -1,10 +1,10 @@
-# README Generator
+# TEst
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
   ## DESCRIPTION
 
-  generates readme
+  test
 
   ## TABLE OF CONTENTS
 
@@ -18,23 +18,23 @@
 
   ## INSTALLATION
 
-  install through github 
+  test 
 
   ## USAGE
 
-  answer questions
+  test
 
   ## LICENSE
 
-  Licensed under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0)
+  Licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)
 
   ## CONTRIBUTING
 
-  na
+  test
 
   ## TESTS
 
-  n/a
+  tst
 
   ## QUESTIONS
 

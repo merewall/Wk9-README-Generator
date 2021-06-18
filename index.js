@@ -137,7 +137,7 @@ function init() {
     inquirer.prompt(questions)
         .then((answers) => {
             const readmeContent = generateMarkdown(answers);
-            writeToFile('README.md', readmeContent);
+            writeToFile('./sample-readme/README.md', readmeContent);
             console.log(answers);
         });
 }

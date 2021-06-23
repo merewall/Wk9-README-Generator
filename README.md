@@ -4,7 +4,7 @@
   
   ## DESCRIPTION
 
-  This project uses a command-line application to create a professional README.md file based on user inputs for the following:
+  This project is a command-line application for creating a professional README.md file based on user inputs for the following:
    - title
    - description
    - installation instructions

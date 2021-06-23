@@ -76,7 +76,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `Licensed under the [${license}]`
+    return `This project is licensed under the [${license}]`
   } else {
     return ''
   }
@@ -125,6 +125,7 @@ function generateMarkdown(data) {
 
   ## QUESTIONS
 
+  For any questions, check out my GitHub profile or send me an email.
   * GitHub Profile: [${data.github}](https://github.com/${data.github})
   * Contact Email: ${data.email}
 

@@ -149,7 +149,6 @@ function init() {
         .then((answers) => {
             const readmeContent = generateMarkdown(answers);
             writeToFile('./sample-readme/README.md', readmeContent);
-            console.log(answers);
         });
 }
 

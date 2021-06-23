@@ -1,43 +1,43 @@
-# TEst
+# Project
 
-  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
   
   ## DESCRIPTION
 
-  test
+  This is a project description.
 
   ## TABLE OF CONTENTS
 
-  - [DESCRIPTION](#description)
-  - [INSTALLATION](#installation)
-  - [USAGE](#usage)
-  - [LICENSE](#license)
-  - [CONTRIBUTING](#contributing)
-  - [TESTS](#tests)
-  - [QUESTIONS](#questions)
+  * [DESCRIPTION](#description)
+  * [INSTALLATION](#installation)
+  * [USAGE](#usage)
+  * [LICENSE](#license)
+  * [CONTRIBUTING](#contributing)
+  * [TESTS](#tests)
+  * [QUESTIONS](#questions)
 
   ## INSTALLATION
 
-  test 
+  Install using GitHub 
 
   ## USAGE
 
-  test
+  Answer the questions.
 
   ## LICENSE
 
-  Licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)
+  Licensed under the [BSD 2-Clause "Simplified" License](https://opensource.org/licenses/BSD-2-Clause)
 
   ## CONTRIBUTING
 
-  test
+  Create a pull request.
 
   ## TESTS
 
-  tst
+  n/a
 
   ## QUESTIONS
 
-  * GitHub: [merewall](https://github.com/merewall)
-  * Email: merewall@gmail.com
+  * GitHub Profile: [merewall](https://github.com/merewall)
+  * Contact Email: merewall@gmail.com
 

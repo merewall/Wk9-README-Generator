@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch(license) {
@@ -23,7 +23,7 @@ function renderLicenseBadge(license) {
     case 'GNU General Public License v2.0':
       return '[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)]';
     case 'GNU Lesser General Public License v2.1':
-      return '[![License](https://img.shields.io/badge/License-LGPL%20v2-blue.svg)]';
+      return '[![License](https://img.shields.io/badge/License-LGPL%20v2.1-blue.svg)]';
     case 'Mozilla Public License 2.0':
       return '[![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]';
     case 'The Unlicense':
@@ -35,7 +35,7 @@ function renderLicenseBadge(license) {
     }
 }
 
-// TODO: Create a function that returns the license link
+// Function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch(license) {
@@ -72,7 +72,7 @@ function renderLicenseLink(license) {
     }
 }
 
-// TODO: Create a function that returns the license section of README
+// Function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
@@ -82,8 +82,9 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
+  
   return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
@@ -94,13 +95,13 @@ function generateMarkdown(data) {
 
   ## TABLE OF CONTENTS
 
-  - [DESCRIPTION](#description)
-  - [INSTALLATION](#installation)
-  - [USAGE](#usage)
-  - [LICENSE](#license)
-  - [CONTRIBUTING](#contributing)
-  - [TESTS](#tests)
-  - [QUESTIONS](#questions)
+  * [DESCRIPTION](#description)
+  * [INSTALLATION](#installation)
+  * [USAGE](#usage)
+  * [LICENSE](#license)
+  * [CONTRIBUTING](#contributing)
+  * [TESTS](#tests)
+  * [QUESTIONS](#questions)
 
   ## INSTALLATION
 
@@ -124,10 +125,11 @@ function generateMarkdown(data) {
 
   ## QUESTIONS
 
-  * GitHub: [${data.github}](https://github.com/${data.github})
-  * Email: ${data.email}
+  * GitHub Profile: [${data.github}](https://github.com/${data.github})
+  * Contact Email: ${data.email}
 
 `;
 }
 
+// export the generateMarkdown function to be used in index.js
 module.exports = generateMarkdown;

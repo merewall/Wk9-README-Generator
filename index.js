@@ -1,10 +1,11 @@
-// TODO: Include packages needed for this application
+// Include packages and files needed for this application: inquirer, fs, and the generateMarkdown.js file
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
-// TODO: Create an array of questions for user input
+// An array of questions that will render in the command line for the user's input
 const questions = [
+    // Prompt for title
     {
       type: 'input',
       name: 'title',
@@ -18,10 +19,11 @@ const questions = [
           }
       }
     },
+    // Prompt for project description
     {
       type: 'input',
       name: 'description',
-      message: 'Enter a brief description of your project.',
+      message: 'Please write a brief description of your project.',
       validate: (descriptionInput) => {
         if (descriptionInput) {
             return true;
@@ -31,6 +33,7 @@ const questions = [
         }
     }
     },
+    // Prompt for installation instructions
     {
       type: 'input',
       name: 'installation',
@@ -44,6 +47,7 @@ const questions = [
         }
     }
     },
+    // Prompt for project usage
     {
       type: 'input',
       name: 'usage',
@@ -57,6 +61,7 @@ const questions = [
         }
     }
     },
+    // Prompt for how to contribute to project
     {
       type: 'input',
       name: 'contributing',
@@ -70,6 +75,7 @@ const questions = [
         }
     }
     },
+    // Prompt for how to test your project
     {
       type: 'input',
       name: 'tests',
@@ -83,6 +89,7 @@ const questions = [
         }
     }
     },
+    // Prompt for project license
     {
         type: 'list',
         name: 'license',
@@ -97,10 +104,11 @@ const questions = [
             }
         }
       },
+      // Prompt for GitHub user name
       {
         type: 'input',
         name: 'github',
-        message: 'Please enter your GitHub user name',
+        message: 'Please enter your GitHub user name.',
         validate: (githubInput) => {
             if (githubInput) {
                 return true;
@@ -110,6 +118,7 @@ const questions = [
             }
         }
       },
+      // Prompt for email address
       {
         type: 'input',
         name: 'email',
@@ -125,16 +134,18 @@ const questions = [
       },
   ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Successfully created README.md!')
     );
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
+    // Use the questions to prompt the user in command line
     inquirer.prompt(questions)
+        // Use the user's answers to generate the markdown for the README.md and output it to a new directory
         .then((answers) => {
             const readmeContent = generateMarkdown(answers);
             writeToFile('./sample-readme/README.md', readmeContent);

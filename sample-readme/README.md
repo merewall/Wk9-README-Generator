@@ -22,7 +22,7 @@
 
   ## USAGE
 
-  Initialize in command-line using node index.js and answer the prompted questions.
+  Initialize in command-line using `node index.js` and answer the prompted questions.
 
   ## LICENSE
 

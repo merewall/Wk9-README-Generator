@@ -87,7 +87,7 @@
   ![Validation check](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/validation-catch.PNG)
   
   _A sample README file generated using the application._  
-  ![Sample README](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/sample-readme-demo.gif)
+  ![Sample README](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/sample-readme.PNG)
   
   
   ## LICENSE
@@ -117,8 +117,8 @@
   ## LINKS
   
   * A [Sample README.md](https://github.com/merewall/Wk9-README-Generator/blob/main/sample-readme/README.md) created using this application.
-
   * The [repository](https://github.com/merewall/Wk9-README-Generator) for this application.
+  * A [demo video](https://drive.google.com/file/d/1fAW4iF_y1HSiCCQAwIN8jK47Y-XSj0Mn/view) on how to use the application.
   
   ## QUESTIONS
   

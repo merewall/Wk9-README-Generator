@@ -25,6 +25,7 @@
   - [CONTRIBUTING](#contributing)
   - [TESTS](#tests)
   - [TECHNOLOGIES USED](#technologies-used)
+  - [LINKS](#links)
   - [QUESTIONS](#questions)
 
 
@@ -76,17 +77,21 @@
   6. The generated professional README.md file containing the user inputs will be located in the *sample-readme* directory.
   7. Create a copy or move the README.md file to your desired directory before running the application again.
 
+
   ## LICENSE
 
   This application is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 
   ## CONTRIBUTING
 
   If you'd like to contribute to the project, please create a pull request on a new branch of the [repository](https://github.com/merewall/Wk9-README-Generator) for review.
 
+
   ## TESTS
 
   No current tests exist for this project.
+  
   
   ## TECHNOLOGIES USED
   
@@ -96,6 +101,13 @@
   - [X] [Inquirer](https://www.npmjs.com/package/inquirer)
   - [X] [File System](https://nodejs.org/api/fs.html)
 
+
+  ## LINKS
+  
+  * A [Sample README.md](https://github.com/merewall/Wk9-README-Generator/blob/main/sample-readme/README.md) created using this application.
+
+  * The [repository](https://github.com/merewall/Wk9-README-Generator) for this application.
+  
   ## QUESTIONS
   
   For any questions, please check out my GitHub profile or send me an email:

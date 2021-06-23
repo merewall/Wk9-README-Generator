@@ -1,10 +1,10 @@
-# Sample README.md
+# Sample README
 
-  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
   
   ## DESCRIPTION
 
-  This is a sample README.md created using a professional README generator.
+  This is a sample README created using a professional README generator application.
 
   ## TABLE OF CONTENTS
 
@@ -18,23 +18,23 @@
 
   ## INSTALLATION
 
-  Install the project code from GitHub and install the inquirer package in command-line. 
+  Install the project code from GitHub and install the inquirer package. 
 
   ## USAGE
 
-  Initialize in command-line using node and answer the prompted questions.
+  Initialize in command-line using node index.js and answer the prompted questions.
 
   ## LICENSE
 
-  This project is licensed under the [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
+  This project is licensed under the [Creative Commons Zero v1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)
 
   ## CONTRIBUTING
 
-  Create a pull request on a new branch for review.
+  Create a pull request to add any code changes to the project.
 
   ## TESTS
 
-  No current tests for this project exist.
+  No tests for this project are available yet.
 
   ## QUESTIONS
 

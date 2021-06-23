@@ -77,7 +77,19 @@
   6. The generated professional README.md file containing the user inputs will be located in the *sample-readme* directory.
   7. Create a copy or move the README.md file to your desired directory before running the application again.
 
-
+  _Example of initializing the application in command-line and the prompted question:_
+  ![Initializing the application](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/initializing-app.PNG)
+  
+  _Example of all prompted questions with user's inputs and success message._
+  ![Success message](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/success-message.PNG)
+  
+  _Example of validation check and message when user input is empty._
+  ![Validation check](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/validation-catch.PNG)
+  
+  _A sample README file generated using the application._  
+  ![Sample README](https://github.com/merewall/Wk9-README-Generator/blob/main/assets/images/sample-readme-demo.gif)
+  
+  
   ## LICENSE
 
   This application is licensed under the [MIT License](https://opensource.org/licenses/MIT).

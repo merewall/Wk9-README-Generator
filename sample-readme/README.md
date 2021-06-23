@@ -1,10 +1,10 @@
-# Test Project
+# Sample README.md
 
-  [![License](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://opensource.org/licenses/EPL-2.0)
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   
   ## DESCRIPTION
 
-  This is a test of my professional README generator.
+  This is a sample README.md created using a professional README generator.
 
   ## TABLE OF CONTENTS
 
@@ -18,23 +18,23 @@
 
   ## INSTALLATION
 
-  This project requires the inquirer package. Install the project code from GitHub. 
+  Install the project code from GitHub and install the inquirer package in command-line. 
 
   ## USAGE
 
-  Initialize in command line using node index.js.
+  Initialize in command-line using node and answer the prompted questions.
 
   ## LICENSE
 
-  This project is licensed under the [Eclipse Public License 2.0](https://opensource.org/licenses/EPL-2.0)
+  This project is licensed under the [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)
 
   ## CONTRIBUTING
 
-  Create a pull request to add any code changes to the project.
+  Create a pull request on a new branch for review.
 
   ## TESTS
 
-  Test using command line. No tests available yet.
+  No current tests for this project exist.
 
   ## QUESTIONS
 
